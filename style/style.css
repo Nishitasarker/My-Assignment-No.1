@@ -1,0 +1,102 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 346;
+    padding: 16px 120px;
+    
+}
+.items ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 32;
+    width: 365px;
+    height: 24px;
+    list-style: none;
+}
+
+.btn{
+    background-color:#30B868;
+    border: 4px solid #30B868;
+    border-radius: 4px;
+    width: 132px;
+    height: 30px;
+    gap: 10;
+    color: #FFFFFF;
+    cursor: pointer; 
+
+}
+
+.btn:hover{
+    background-color: #06b750;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-parent{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   background-image:url(../assets/hero-bg.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   max-width: 1600px;
+   max-height: 300px;
+   
+}
+
+.text-1{
+    color:#FFFFFF;
+}
+.text-2{
+    color: #30B868;
+}
+
+.paragraph{
+    color: #FFFFFF;
+}
+
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.btn-1:hover{
+    background-color: #06b750;
+}
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    gap: 10px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: 1px solid #30B868;
+}
+
+.btn-2:hover{
+    background-color: #06b750;
+}
+
+.btn-2{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background:none;
+    color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+}
